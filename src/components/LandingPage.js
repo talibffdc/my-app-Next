@@ -36,14 +36,14 @@ export default function LandingPage() {
           <div className="text-lg font-semibold">Rs 10,000.00 Cr</div>
         </div>
 
-        <div className="text-center">
+        <div className="" style={{maxWidth:'100%'}}>
           <table className=" bg-white">
             <thead>
               <tr>
-                <th className="px-6 py-3 border-b border-white-900 bg-blue-400 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                <th className="px-2 py-3 border-b border-white-900 bg-blue-400 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                   Date
                 </th>
-                <th className="px-6 py-3 border-b border-gray-200 bg-blue-400 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                <th className="px-8 py-3 border-b border-gray-200 bg-blue-400 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                   Particular
                 </th>
                 <th className="px-6 py-3 border-b border-gray-200 bg-blue-400 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
@@ -52,18 +52,18 @@ export default function LandingPage() {
                 <th className="px-6 py-3 border-b border-gray-200 bg-blue-400 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                   Cr
                 </th>
-                <th className="px-6 py-3 border-b border-gray-200 bg-blue-400 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
+                <th className="px-8 py-3 border-b border-gray-200 bg-blue-400 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider">
                   Balance
                 </th>
               </tr>
             </thead>
-            <tbody className="min-h-screen flex items-center justify-center">
-              <tr>
-                <td className="p-4 text-center" colSpan="5">
-                  No transaction available
-                </td>
-              </tr>
-            </tbody>
+            <tbody className="w-full h-72 items-center justify-center ">
+          <tr className="w-full">
+            <td className="text-center w-full" colSpan="5">
+              No transaction available
+            </td>
+          </tr>
+        </tbody>
           </table>
         </div>
         <div className="flex justify-between items-center border-t p-4">
