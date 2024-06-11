@@ -68,7 +68,7 @@ export default function LandingPage() {
         </div>
         <div className="flex justify-between items-center border-t p-4">
           <div className="text-lg font-semibold">Closing Balance</div>
-          <div className="text-lg font-semibold">$ 10,000.00 Cr</div>
+          <div className="text-lg font-semibold">Rs 10,000.00 Cr</div>
         </div>
         <div className="flex justify-around border-t p-4">
           <button className="text-blue-500">Image</button>
