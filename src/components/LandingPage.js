@@ -26,12 +26,13 @@ export default function LandingPage() {
             />
           </svg>
         </div>
-
         <div className="flex flex-col md:flex-row justify-between items-center border-b p-4">
           <Dropdown />
-          <div className="text-sm text-gray-500 mt-2 md:mt-0">Showing All Time Details</div>
+          <div className="text-sm text-gray-500 mt-2 md:mt-0">
+            Showing All Time Details
+          </div>
         </div>
-        
+
         <div className="flex flex-col md:flex-row justify-between items-center border-b p-4">
           <div className="text-lg font-semibold">Opening Balance</div>
           <div className="text-lg font-semibold">Rs 10,000.00 Cr</div>
@@ -72,7 +73,7 @@ export default function LandingPage() {
           <div className="text-lg font-semibold">Closing Balance</div>
           <div className="text-lg font-semibold">Rs 10,000.00 Cr</div>
         </div>
-        
+
         <div className="flex flex-col md:flex-row justify-around border-t p-4">
           <button className="text-blue-500 mt-2 md:mt-0">Image</button>
           <button className="text-blue-500 mt-2 md:mt-0">PDF</button>
