@@ -1,16 +1,16 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 const Dropdown = () => {
-  const [selected, setSelected] = useState('All Time');
+  const [selected, setSelected] = useState("All Time");
 
   const options = [
-    'All Time',
-    'Financial Year',
-    'Yearly',
-    'Quarterly',
-    'Monthly',
-    'Weekly',
-    'Custom Date',
+    "All Time",
+    "Financial Year",
+    "Yearly",
+    "Quarterly",
+    "Monthly",
+    "Weekly",
+    "Custom Date",
   ];
 
   return (
@@ -31,4 +31,3 @@ const Dropdown = () => {
 };
 
 export default Dropdown;
-
